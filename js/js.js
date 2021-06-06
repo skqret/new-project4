@@ -1,4 +1,6 @@
-var target_date = new Date().getTime() + (1000*3600*48); // установить дату обратного отсчета
+document.addEventListener('DOMContentLoaded', function(){
+
+var target_date = new Date().getTime() + (1000*3600*4); // установить дату обратного отсчета
 var days, hours, minutes, seconds; // переменные для единиц времени
 
 var countdown = document.getElementById("tiles"); // получить элемент тега
@@ -8,7 +10,6 @@ getCountdown();
 setInterval(function () { getCountdown(); }, 1000);
 
 function getCountdown(){
-
     var current_date = new Date().getTime();
     var seconds_left = (target_date - current_date) / 1000;
 
@@ -22,9 +23,15 @@ function getCountdown(){
     seconds = pad( parseInt( seconds_left % 60 ) );
 
     // строка обратного отсчета  + значение тега
-    countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>";
+    countdown.innerHTML = `
+        <span>${days} дней</span>
+        <span>${hours} часов</span>
+        <span>${minutes} минут</span>
+        <span>${seconds} секунд</span>`
 }
 
 function pad(n) {
     return (n < 10 ? '0' : '') + n;
 }
+
+});
