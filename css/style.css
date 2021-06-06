@@ -98,26 +98,26 @@ a:hover {
   text-decoration: underline;
   /* Добавляем подчеркивание */ }
 
-.columns-1 {
+.card-wrapper {
   padding-top: 168px;
   padding-bottom: 120px; }
 
-.col {
+.card-custom {
   background-color: #f7f8fc;
   border-radius: 10px;
-  padding-top: 30px; }
-  .col:not(:last-child) {
-    margin-right: 41px; }
+  padding: 20px;
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .card-custom__title {
+    color: #E9588F;
+    font-size: 25px;
+    font-weight: bold; }
+  .card-custom__text {
+    margin: 0; }
 
-.col-name {
-  color: #E9588F;
-  font-size: 25px;
-  font-weight: bold; }
-
-/*
-.col-text {
-  font-size: 18px;
-}*/
 .description-text {
   max-width: 1000px; }
 
@@ -132,3 +132,7 @@ a:hover {
   width: 100%;
   font-size: 40px;
   font-weight: bold; }
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1140px; } }
