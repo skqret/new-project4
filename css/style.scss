@@ -1,0 +1,100 @@
+body {
+  color: #3C4858;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+}
+
+.header {
+  background-color: #3C4858;
+  height: 100px;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__img {
+    margin-right: 30px;
+  }
+
+  &__menu {
+    margin: 0;
+    margin-right: auto;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+  }
+
+  &__menu-item {
+    background-color: black;
+    border: 4px double black;
+    border-color: chartreuse;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+.head-block {
+  display: flex;
+  padding-top: 104px;
+
+  &__left-col {
+    width: 50%;
+  }
+
+  &__right-col {
+    width: 50%;
+  }
+
+  &__old-cost {
+    text-decoration: line-through; /*Создает перечеркнутый текст*/
+  }
+
+  &__button {
+    width: 320px;
+    height: 60px;
+    background: #E9588F;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      background: #e36d9c;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.list {
+  padding-left: 0;
+
+  &__item {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none; /*Убираем маркеры*/
+  }
+}
+
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+a:hover {
+  color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */
+  text-decoration: underline; /* Добавляем подчеркивание */
+}
+
