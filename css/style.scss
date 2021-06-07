@@ -108,6 +108,7 @@ img {
 
 .old-cost {
   text-decoration: line-through; /*Создает перечеркнутый текст*/
+  color: rgba(60, 72, 88, 0.62);
 }
 
 .list {
@@ -163,16 +164,26 @@ a:hover {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 75px;
   background-color: #f7f8fc;
   border-radius: 10px;
 }
 
 .title-offer {
-  width: 100%;
   font-size: 40px;
   font-weight: bold;
 }
 
+.footer {
+  font-size: 16px;
+  text-align: center;
+
+  &__text {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
 
 
 
