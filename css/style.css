@@ -145,8 +145,13 @@ a:hover {
 .footer__element {
   padding-top: 60px; }
 .footer__img {
-  float: left; }
+  margin-left: -20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%; }
 .footer__text {
+  display: flex;
   font-size: 16px;
   color: black;
   padding: 0;
