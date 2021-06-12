@@ -156,8 +156,11 @@ a:hover {
   }
 }
 
-.description-text {
-  max-width: 1000px;
+.description {
+
+  &__text {
+    max-width: 1000px;
+  }
 }
 
 .special-offer {
@@ -185,14 +188,39 @@ a:hover {
   }
 }
 
+.footer {
 
+  &__element {
+    padding-top: 60px;
+  }
 
+  &__img {
+    float: left;
+  }
 
+  &__text {
+    font-size: 16px;
+    color: black;
+    padding: 0;
+    min-width: 460px;
+    text-align: left;
+  }
 
-
-
-
-
+  &__social-button{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 50%; //скругление углов кнопки
+    width: 54px; //размер кнопки по ширине
+    height: 54px; //размер кнопки по высоте
+    background: #118EC7; //цвет кнопки в статичном виде
+    border: none;
+    line-height: 54px;
+    color: #fff; //цвет иконки в статичном виде
+    font-size: 27px; //размер иконки
+    text-align: center;
+  }
+}
 
 
 
