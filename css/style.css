@@ -49,8 +49,7 @@ button {
   display: flex;
   padding-top: 104px; }
   .head-block__left-col {
-    width: 50%;
-    /*font-size: 18px;*/ }
+    width: 50%; }
   .head-block__right-col {
     text-align: right;
     width: 50%; }
@@ -91,7 +90,8 @@ img {
 
 a {
   text-decoration: none;
-  /* Отменяем подчеркивание у ссылки */ }
+  /* Отменяем подчеркивание у ссылки */
+  color: black; }
 
 a:hover {
   color: #800000;
@@ -136,8 +136,8 @@ a:hover {
   font-weight: bold; }
 
 .footer {
-  font-size: 16px;
-  text-align: center; }
+  color: black;
+  font-size: 16px; }
   .footer__element {
     padding-top: 60px; }
   .footer__img {
@@ -147,14 +147,21 @@ a:hover {
     align-items: center;
     height: 100%; }
   .footer__text {
-    font-size: 16px;
-    color: black; }
+    font-size: 16px; }
+  .footer__text-item {
+    text-decoration: underline; }
 
 .warning {
-  padding-left: 60px;
-  padding-right: 60px;
-  margin: 0;
-  align-items: center; }
+  padding-left: 260px;
+  padding-right: 260px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  margin-left: -140px;
+  margin-right: -140px;
+  margin-bottom: 0;
+  text-align: center;
+  border-bottom: 1px solid #EAEAEA;
+  border-top: 1px solid #EAEAEA; }
 
 .address {
   display: flex;
@@ -176,6 +183,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     transition: 0.3s; }
+    .social-icon__elem:hover {
+      background: #e36d9c; }
     .social-icon__elem:last-child {
       margin-right: 0; }
 
@@ -189,8 +198,15 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-@media (min-width: 1400px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1140px; } }
+.copyright {
+  font-size: 16px;
+  margin-left: -20px;
+  padding-top: 33px; }
+
+.payment-system {
+  margin-top: 60px;
+  padding-top: 15px;
+  height: 104px;
+  border-top: 1px solid #EAEAEA; }
 
 /*# sourceMappingURL=style.css.map */
