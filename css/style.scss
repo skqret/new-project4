@@ -272,3 +272,22 @@ a:hover {
   height: 104px;
   border-top: 1px solid #EAEAEA;
 }
+
+.logo-card-container {
+  text-align: right;
+}
+
+.info-block {
+
+  &__element {
+    display: flex;
+  }
+
+  &__element-title {
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    margin-left: 30px;
+  }
+}

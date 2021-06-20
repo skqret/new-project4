@@ -209,4 +209,14 @@ a:hover {
   height: 104px;
   border-top: 1px solid #EAEAEA; }
 
+.logo-card-container {
+  text-align: right; }
+
+.info-block__element {
+  display: flex; }
+.info-block__element-title {
+  margin-bottom: 10px; }
+.info-block__text {
+  margin-left: 30px; }
+
 /*# sourceMappingURL=style.css.map */
