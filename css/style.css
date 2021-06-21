@@ -212,11 +212,20 @@ a:hover {
 .logo-card-container {
   text-align: right; }
 
-.info-block__element {
-  display: flex; }
-.info-block__element-title {
-  margin-bottom: 10px; }
-.info-block__text {
-  margin-left: 30px; }
+.info-block {
+  justify-content: space-between;
+  /*margin-right: -30px;*/ }
+  .info-block__element {
+    display: flex;
+    margin-top: 50px;
+    /* margin-right: 30px;*/ }
+  .info-block__element-img {
+    flex-shrink: 0; }
+  .info-block__element-title {
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: bold; }
+  .info-block__element-text {
+    margin-left: 30px; }
 
 /*# sourceMappingURL=style.css.map */
