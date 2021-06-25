@@ -5,6 +5,14 @@ body {
   font-size: 18px;
 }
 
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .header {
   background-color: #F7F8FC;
   height: 100px;
@@ -84,6 +92,14 @@ button {
 
 .pink-text {
   color: #E9588F;
+}
+
+.big-pink-text {
+  color: #E9588F;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .title {
@@ -310,5 +326,32 @@ a:hover {
   font-size: 16px;
   color: #8B90A0;
   padding-bottom: 50px;
-  margin: 0;
+}
+
+.invite-block {
+  display: flex;
+
+  &__left-col {
+    width: 50%;
+  }
+
+  &__right-col {
+    width: 50%;
+    padding-bottom: 120px;
+    text-align: center;
+  }
+
+  &__text {
+    padding-bottom: 25px;
+  }
+
+  &__note {
+    font-size: 15px;
+    color: #8B90A0;
+    padding-top: 25px;
+  }
+
+  &__img {
+    flex-shrink: 0;
+  }
 }

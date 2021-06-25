@@ -5,6 +5,12 @@ body {
   font-style: normal;
   font-size: 18px; }
 
+h3 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+
 .header {
   background-color: #F7F8FC;
   height: 100px; }
@@ -59,6 +65,13 @@ button {
 
 .pink-text {
   color: #E9588F; }
+
+.big-pink-text {
+  color: #E9588F;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-top: 25px; }
 
 .title {
   font-size: 40px;
@@ -234,7 +247,23 @@ a:hover {
 .note {
   font-size: 16px;
   color: #8B90A0;
-  padding-bottom: 50px;
-  margin: 0; }
+  padding-bottom: 50px; }
+
+.invite-block {
+  display: flex; }
+  .invite-block__left-col {
+    width: 50%; }
+  .invite-block__right-col {
+    width: 50%;
+    padding-bottom: 120px;
+    text-align: center; }
+  .invite-block__text {
+    padding-bottom: 25px; }
+  .invite-block__note {
+    font-size: 15px;
+    color: #8B90A0;
+    padding-top: 25px; }
+  .invite-block__img {
+    flex-shrink: 0; }
 
 /*# sourceMappingURL=style.css.map */
