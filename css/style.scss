@@ -84,7 +84,7 @@ button {
     width: 50%;
   }
 
-  &__title-list {
+  &__title- {
     font-weight: bold;
     font-size: 18px;
   }
@@ -299,7 +299,6 @@ a:hover {
   &__element {
     display: flex;
     margin-top: 50px;
-    margin-right: 30px;
   }
 
   &__element-img {
@@ -353,5 +352,92 @@ a:hover {
 
   &__img {
     flex-shrink: 0;
+  }
+}
+
+.personal-account-block {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 135px;
+
+  &__left-col {
+    width: 50%;
+  }
+
+  &__right-col {
+    width: 50%;
+    text-align: left;
+  }
+
+  &__img {
+    flex-shrink: 0;
+  }
+}
+
+.personal-account-list {
+    padding-left: 0;
+
+    &__item {
+      margin-left: 0;
+      margin-bottom: 20px;
+      padding-left: 0;
+      list-style-type: none; /*Убираем маркеры*/
+    }
+}
+
+.beautyclub365-block {
+  display: flex;
+  background-color: #F7F8FC;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  margin-bottom: 120px;
+
+  &__left-col {
+    width: 50%;
+    padding-left: 100px;
+  }
+
+  &__right-col {
+    width: 50%;
+    text-align: center;
+  }
+
+  &__text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+.three-blocks {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+
+.three-blocks:first-child {
+    margin-right: 40px;
+  }
+}
+
+.block-type1 {
+  display: flex;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-left: 40px;
+  background-color: #F7F8FC;
+  flex-direction: column;
+  width: 50%;
+
+}
+
+.block-type1-container {
+  display: flex;
+  vertical-align: bottom;
+
+  &__title {
+    padding-left: 20px;
+  }
+
+  &__text {
+    padding-top: 20px;
   }
 }
