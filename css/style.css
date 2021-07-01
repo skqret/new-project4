@@ -304,10 +304,7 @@ a:hover {
 
 .three-blocks {
   padding-top: 50px;
-  padding-bottom: 50px;
-  display: flex; }
-  .three-blocks .three-blocks:first-child {
-    margin-right: 40px; }
+  padding-bottom: 50px; }
 
 .block-type1 {
   display: flex;
@@ -315,8 +312,7 @@ a:hover {
   padding-bottom: 38px;
   padding-left: 40px;
   background-color: #F7F8FC;
-  flex-direction: column;
-  width: 50%; }
+  flex-direction: column; }
 
 .block-type1-container {
   display: flex;
@@ -325,5 +321,14 @@ a:hover {
     padding-left: 20px; }
   .block-type1-container__text {
     padding-top: 20px; }
+
+.block-type2 {
+  display: flex;
+  margin-top: 40px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-left: 40px;
+  background-color: #F7F8FC;
+  flex-direction: column; }
 
 /*# sourceMappingURL=style.css.map */

@@ -411,11 +411,6 @@ a:hover {
 .three-blocks {
   padding-top: 50px;
   padding-bottom: 50px;
-  display: flex;
-
-.three-blocks:first-child {
-    margin-right: 40px;
-  }
 }
 
 .block-type1 {
@@ -425,8 +420,6 @@ a:hover {
   padding-left: 40px;
   background-color: #F7F8FC;
   flex-direction: column;
-  width: 50%;
-
 }
 
 .block-type1-container {
@@ -440,4 +433,14 @@ a:hover {
   &__text {
     padding-top: 20px;
   }
+}
+
+.block-type2 {
+  display: flex;
+  margin-top: 40px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-left: 40px;
+  background-color: #F7F8FC;
+  flex-direction: column;
 }
