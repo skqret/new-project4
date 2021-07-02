@@ -420,6 +420,7 @@ a:hover {
   padding-left: 40px;
   background-color: #F7F8FC;
   flex-direction: column;
+  height: 180px;
 }
 
 .block-type1-container {
@@ -439,8 +440,21 @@ a:hover {
   display: flex;
   margin-top: 40px;
   padding-top: 38px;
-  padding-bottom: 38px;
   padding-left: 40px;
   background-color: #F7F8FC;
   flex-direction: column;
+
+  &__element {
+    padding-top: 50px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  &__text {
+    padding-bottom: 40px;
+  }
 }

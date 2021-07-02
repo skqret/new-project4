@@ -312,7 +312,8 @@ a:hover {
   padding-bottom: 38px;
   padding-left: 40px;
   background-color: #F7F8FC;
-  flex-direction: column; }
+  flex-direction: column;
+  height: 180px; }
 
 .block-type1-container {
   display: flex;
@@ -326,9 +327,16 @@ a:hover {
   display: flex;
   margin-top: 40px;
   padding-top: 38px;
-  padding-bottom: 38px;
   padding-left: 40px;
   background-color: #F7F8FC;
   flex-direction: column; }
+  .block-type2__element {
+    padding-top: 50px; }
+  .block-type2__title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px; }
+  .block-type2__text {
+    padding-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */
