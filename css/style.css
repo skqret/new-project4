@@ -317,7 +317,8 @@ a:hover {
 
 .block-type1-container {
   display: flex;
-  vertical-align: bottom; }
+  vertical-align: bottom;
+  align-items: center; }
   .block-type1-container__title {
     padding-left: 20px; }
   .block-type1-container__text {

@@ -426,6 +426,7 @@ a:hover {
 .block-type1-container {
   display: flex;
   vertical-align: bottom;
+  align-items: center;
 
   &__title {
     padding-left: 20px;
@@ -458,3 +459,5 @@ a:hover {
     padding-bottom: 40px;
   }
 }
+
+
