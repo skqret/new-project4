@@ -460,4 +460,18 @@ a:hover {
   }
 }
 
+.free-lesson {
+  padding-bottom: 120px;
 
+  &__text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 500px;
+  }
+}
+
+.video-block {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}

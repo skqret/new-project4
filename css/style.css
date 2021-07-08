@@ -340,4 +340,16 @@ a:hover {
   .block-type2__text {
     padding-bottom: 40px; }
 
+.free-lesson {
+  padding-bottom: 120px; }
+  .free-lesson__text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 500px; }
+
+.video-block {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px; }
+
 /*# sourceMappingURL=style.css.map */
