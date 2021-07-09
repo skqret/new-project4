@@ -352,4 +352,23 @@ a:hover {
   justify-content: center;
   border-radius: 10px; }
 
+.block-bonus {
+  padding-bottom: 120px; }
+  .block-bonus__text {
+    font-size: 16px;
+    padding-top: 25px;
+    width: 490px; }
+    .block-bonus__text_big {
+      font-size: 18px;
+      font-weight: bold;
+      padding-bottom: 20px;
+      padding-top: 25px; }
+  .block-bonus__button {
+    position: relative;
+    bottom: 388px;
+    left: 40px;
+    width: 181px;
+    height: 41px;
+    font-size: 16px; }
+
 /*# sourceMappingURL=style.css.map */
