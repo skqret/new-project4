@@ -504,6 +504,14 @@ a:hover {
 
 .block-examples {
   padding-bottom: 100px;
+  background-color: #F7F8FC;
+  padding-left: 140px;
+  margin-left: -140px;
+  padding-right: 140px;
+  margin-right: -140px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 120px;
 
   &__name {
     color: #E9588F;
@@ -514,10 +522,17 @@ a:hover {
 
   &__text {
     padding-bottom: 30px;
+    max-width: 1070px;
 
     &_big {
       font-size: 20px;
       font-weight: bold;
+      padding-bottom: 30px;
+      max-width: 1070px;
     }
+  }
+
+  &__img {
+    border-radius: 10px;
   }
 }
