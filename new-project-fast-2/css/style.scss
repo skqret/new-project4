@@ -1,0 +1,709 @@
+body {
+  color: #05043A;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 16px;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+.pink-text {
+  color: #FFA0D9;
+
+  &_big {
+    color: #FFA0D9;
+    font-size: 29px;
+  }
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+li {
+  color: #FFA0D9;
+}
+
+li span {
+  color: #05043A;
+}
+
+button {
+  background-color: #FFA0D9;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  height: 55px;
+  width: 268px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background: #e36d9c;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.title {
+  font-size: 18px;
+
+  &_big {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
+.card-wrapper {
+  padding-top: 40px;
+}
+
+.card-custom {
+  background-color: #F7F8FC;
+  text-align: center;
+  min-height: 500px;
+
+
+  &__title {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  &__text {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  &__img {
+    padding-top: 40px;
+    min-height: 200px;
+  }
+}
+
+.block-recovery {
+  background-color: #F7F8FC;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  &__info {
+    max-width: 690px;
+  }
+
+  &__text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &_big {
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.block-author {
+  margin-top: 106px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  &__text {
+    max-width: 650px;
+    padding-bottom: 10px;
+  }
+
+  &__list {
+    padding-bottom: 20px;
+  }
+
+  &__list-item {
+    padding-bottom: 10px;
+  }
+
+  &__wrapper {
+    padding-top: 40px;
+    display: flex;
+  }
+
+  &__info {
+    padding-left: 40px;
+  }
+
+  &__experience {
+    font-weight: bold;
+    display: flex;
+  }
+
+  &__experience-item {
+    padding-right: 40px;
+  }
+}
+
+.block-results {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &__button {
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+
+.course-covid {
+  padding-bottom: 50px;
+
+  &__wrapper {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    margin-top: 40px;
+    background-color: #F7F8FC;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__button {
+      text-align: center;
+      padding-top: 40px;
+  }
+
+  &__element {
+    width: 400px;
+  }
+
+  &__list-item {
+    max-width: 300px;
+    padding-bottom: 10px;
+  }
+
+  &__element-name {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  &__list-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+}
+
+.block-offer {
+
+  &__wrapper {
+    margin-top: 40px;
+    background-color: #F7F8FC;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+  }
+
+  &__element {
+    border-bottom: 1px solid #EAEAEA;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    &_change {
+      display: flex;
+      justify-content: space-around;
+      border-top: 1px solid #EAEAEA;
+      border-bottom: 1px solid #EAEAEA;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+  }
+
+  &__name {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 40px;
+  }
+
+  &__text {
+    font-size: 18px;
+
+    &_big {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &__cost {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__old-price {
+    color: #8B90A0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    text-decoration: line-through; /*Создает перечеркнутый текст*/
+  }
+
+  &__new-price {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  &__plus {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFA0D9;
+  }
+}
+
+
+@media (max-width: 320px) {
+
+  .col-md-3 {
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .pink-text {
+
+    &_big {
+      font-size: 20px;
+    }
+  }
+
+  .title {
+
+    &_big {
+      font-size: 30px;
+    }
+  }
+
+  .card-custom {
+    min-height: 400px;
+
+    &__img {
+      margin: auto;
+    }
+
+    &__title {
+      text-align: center;
+    }
+  }
+
+  .block-recovery {
+
+    &__button {
+      text-align: center;
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+
+  .block-author {
+
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__info {
+      padding-left: 10px;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__img {
+      max-width: 100%;
+      height: 100%;
+    }
+
+    &__experience {
+      text-align: center;
+    }
+
+    &__experience-item {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+
+  .block-results {
+
+    &__button {
+      padding-top: 10px;
+    }
+  }
+
+  .course-covid {
+
+    &__button {
+      padding-top: 10px;
+    }
+
+    &__wrapper {
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    &__element {
+      width: 100%;
+    }
+
+    &__element-duration {
+      text-align: center;
+    }
+
+    &__element-name {
+      text-align: center;
+      margin: auto;
+    }
+
+    &__list-title {
+      padding-top: 15px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+
+  .col-md-3 {
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .pink-text {
+
+    &_big {
+      font-size: 20px;
+    }
+  }
+
+  .title {
+
+    &_big {
+      font-size: 30px;
+    }
+  }
+
+  .card-custom {
+    min-height: 400px;
+
+    &__img {
+      margin: auto;
+    }
+
+    &__title {
+      text-align: center;
+    }
+  }
+
+
+  .block-results {
+
+    &__button {
+      padding-top: 10px;
+    }
+  }
+
+  .block-recovery {
+
+    &__button {
+      text-align: center;
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+
+  .block-author {
+
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__info {
+      padding-left: 10px;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__img {
+      max-width: 100%;
+      height: 100%;
+    }
+
+    &__experience {
+      text-align: center;
+    }
+
+    &__experience-item {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+
+  .course-covid {
+
+    &__button {
+      padding-top: 10px;
+    }
+
+    &__wrapper {
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    &__element {
+      width: 100%;
+    }
+
+    &__element-duration {
+      text-align: center;
+    }
+
+    &__element-name {
+      margin: auto;
+      text-align: center;
+    }
+
+    &__list-title {
+      padding-top: 15px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .col-md-3 {
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .pink-text {
+
+    &_big {
+      font-size: 20px;
+    }
+  }
+
+  .title {
+
+    &_big {
+      font-size: 30px;
+    }
+  }
+
+  .card-custom {
+
+    &__title {
+      text-align: center;
+    }
+
+    &__img {
+    }
+  }
+
+  .block-results {
+
+    &__button {
+      padding-top: 10px;
+    }
+  }
+
+  .block-recovery {
+
+    &__button {
+      text-align: center;
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+
+  .block-author {
+
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__info {
+      padding-left: 10px;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__img {
+      max-width: 100%;
+      height: 100%;
+    }
+
+    &__experience {
+      text-align: center;
+    }
+
+    &__experience-item {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+
+  .course-covid {
+
+    &__button {
+      padding-top: 10px;
+    }
+
+    &__wrapper {
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    &__element {
+      width: 100%;
+    }
+
+    &__element-duration {
+      text-align: center;
+    }
+
+    &__element-name {
+      text-align: center;
+    }
+
+    &__list-title {
+      padding-top: 15px;
+      text-align: center;
+    }
+  }
+
+  .block-offer {
+
+    &__button {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+
+  h3 {
+    text-align: center;
+  }
+
+  .card-custom {
+    min-height: 550px;
+  }
+
+  .block-recovery {
+
+    &__img {
+      width: 300px;
+      height: auto;
+    }
+  }
+
+  .course-covid {
+
+    &__element-name {
+      max-width: 200px;
+    }
+
+    &__list-item {
+      max-width: 250px;
+    }
+  }
+
+  .block-offer {
+
+    &__button {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+
+  h3 {
+    text-align: center;
+  }
+
+  .card-custom {
+    min-height: 550px;
+  }
+
+  .block-recovery {
+
+    &__img {
+      width: 40%;
+      height: auto;
+    }
+  }
+
+  .course-covid {
+
+    &__element-name {
+      max-width: 200px;
+    }
+
+    &__list-item {
+      max-width: 250px;
+    }
+  }
+
+  .block-offer {
+
+    &__button {
+      width: 100%;
+    }
+  }
+}

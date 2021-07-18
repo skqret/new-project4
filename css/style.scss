@@ -536,3 +536,28 @@ a:hover {
     border-radius: 10px;
   }
 }
+
+
+
+@media (max-width: 500px) {
+  .header__img {
+    margin: auto;
+  }
+
+  .header__inner {
+    flex-direction: column;
+    background-color: #F7F8FC;
+  }
+
+  .header__menu {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .header__menu-item {
+    margin: auto;
+    margin-top: 20px;
+
+    }
+  }
+}
