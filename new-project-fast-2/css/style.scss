@@ -190,13 +190,6 @@ img {
   height: auto;
 }
 
-h3 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
 .pink-text {
   color: #FFA0D9;
 
@@ -248,15 +241,19 @@ button {
   }
 }
 
+.main-title {
+  margin-bottom: 40px;
+}
+
 .card-wrapper {
-  padding-top: 40px;
+  margin-bottom: 40px;
 }
 
 .card-custom {
   background-color: #F7F8FC;
-  text-align: center;
+  text-align: left;
   height: 100%;
-  padding-bottom: 20px;
+  padding: 25px;
   
   @media (max-width: 1200px) {
   
@@ -267,57 +264,48 @@ button {
   }
 
   &__title {
-    text-align: left;
     font-size: 18px;
     font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  &__text {
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-bottom: 20px;
   }
 
   &__img {
-    padding-top: 40px;
-    min-height: 200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
   }
 }
 
 .block-recovery {
   background-color: #F7F8FC;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 20px;
 
-  &__img {
-
-    }
+  &__title {
+    margin-top: 45px;
+    margin-bottom: 20px;
   }
 
   &__text {
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    &_big {
-      font-weight: bold;
-      padding-bottom: 20px;
-    }
+    margin-bottom: 20px;
   }
 }
 
 .block-author {
-  margin-top: 106px;
+  margin-bottom: 40px;
 
   &__title {
+    margin-bottom: 40px;
+  }
+
+  &__wrapper {
+    padding-top: 40px;
+    display: flex;
+  }
+
+  &__name {
     font-size: 18px;
     font-weight: bold;
     padding-bottom: 20px;
@@ -336,10 +324,7 @@ button {
     padding-bottom: 10px;
   }
 
-  &__wrapper {
-    padding-top: 40px;
-    display: flex;
-  }
+
 
   &__info {
     padding-left: 40px;
