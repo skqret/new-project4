@@ -187,34 +187,29 @@ button {
     margin-bottom: 20px; }
 
 .block-author {
-  margin-bottom: 40px; }
+  margin-bottom: 100px; }
   .block-author__title {
     margin-bottom: 40px; }
   .block-author__wrapper {
-    padding-top: 40px;
     display: flex; }
   .block-author__name {
     font-size: 18px;
     font-weight: bold;
-    padding-bottom: 20px; }
+    margin-bottom: 20px; }
   .block-author__text {
-    max-width: 650px;
-    padding-bottom: 10px; }
+    margin-bottom: 10px; }
   .block-author__list {
-    padding-bottom: 20px; }
+    margin-bottom: 20px; }
   .block-author__list-item {
-    padding-bottom: 10px; }
-  .block-author__info {
-    padding-left: 40px; }
+    margin-bottom: 10px; }
   .block-author__experience {
     font-weight: bold;
     display: flex; }
-  .block-author__experience-item {
-    padding-right: 40px; }
 
 .block-results {
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  margin-bottom: 100px; }
+  .block-results__title {
+    padding-bottom: 40px; }
   .block-results__button {
     text-align: center;
     padding-top: 40px; }
