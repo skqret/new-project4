@@ -188,6 +188,9 @@ button {
     margin-bottom: 20px; }
   .block-recovery__text {
     margin-bottom: 20px; }
+  @media (max-width: 960px) {
+    .block-recovery__img {
+      display: none; } }
 
 .block-author {
   margin-bottom: 100px; }
@@ -224,6 +227,9 @@ button {
     background-color: #F7F8FC;
     display: flex;
     justify-content: space-between; }
+    @media (max-width: 960px) {
+      .course-covid__wrapper {
+        flex-direction: column; } }
   .course-covid__button {
     text-align: center;
     margin-top: 40px; }
@@ -254,14 +260,15 @@ button {
   font-weight: bold; }
 .block-offer__element {
   border-bottom: 1px solid #EAEAEA;
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding-bottom: 10px; }
   .block-offer__element_change {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #EAEAEA;
     border-bottom: 1px solid #EAEAEA;
-    margin-bottom: 35px; }
+    margin-bottom: 20px; }
 .block-offer__text {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -270,23 +277,22 @@ button {
     font-size: 20px;
     font-weight: bold; }
 .block-offer__cost {
-  padding-top: 20px;
+  margin-bottom: 10px;
   font-size: 24px;
   font-weight: bold; }
 .block-offer__old-price {
   color: #8B90A0;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  margin-bottom: 10px;
   font-size: 16px;
   text-decoration: line-through;
   /*Создает перечеркнутый текст*/ }
 .block-offer__new-price {
   font-size: 28px;
   font-weight: bold;
-  padding-bottom: 20px; }
+  margin-bottom: 20px; }
 .block-offer__plus {
-  padding-bottom: 20px;
-  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   font-size: 20px;
   font-weight: bold;
   color: #FFA0D9; }
