@@ -295,13 +295,6 @@ button {
   &__text {
     margin-bottom: 20px;
   }
-
-  &__img {
-
-    @media (max-width: 960px) {
-      display: none;
-    }
-  }
 }
 
 .block-author {
